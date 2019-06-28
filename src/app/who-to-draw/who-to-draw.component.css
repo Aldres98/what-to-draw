@@ -1,0 +1,31 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.container { 
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.character-name {
+  font-family: cursive;
+}
+
+

@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { WhoToDrawComponent } from './who-to-draw/who-to-draw.component';
+import { PoseComponent } from './pose/pose.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WhoToDrawComponent,
+    PoseComponent
   ],
   imports: [
     BrowserModule,
